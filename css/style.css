@@ -1,0 +1,48 @@
+*{
+    color: white;
+}
+body{
+    background-image: url(../img/bg.jpg);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+main .container{
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-between;
+}
+h1{
+    font-size: 50px;
+}
+
+form{
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn{
+    background-color: #5E54A4;
+    padding: 15px;
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+}
+.sbt{
+    width: 100%;
+    background-color: #38CC8B;
+    border: none;
+    padding: 15px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+input{
+    padding: 10px 25px;
+    color: black;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 300px;
+}
