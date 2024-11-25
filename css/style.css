@@ -59,8 +59,16 @@ input[required]{
     color: red;
 }
 @media only screen and (max-width:550px){
+    main{
+        width: 390px;
+
+    }
     main .container{
         flex-wrap: wrap;
+    }
+    section{
+        padding: 10px;
+        width: 100%;
     }
     .container{
         width: 95%;
@@ -68,5 +76,13 @@ input[required]{
     }
     form{
         padding: 10px;
+        width: 350px;
+    }
+    input{
+        width: 85%; 
+    }
+    div{
+        margin-top: 30px;
+        justify-content: center;
     }
 }
