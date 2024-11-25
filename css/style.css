@@ -38,6 +38,9 @@ form{
     border-radius: 14px;
     cursor: pointer;
 }
+div{
+    margin-top: -100px;
+}
 input{
     padding: 10px 25px;
     color: black;
@@ -45,4 +48,8 @@ input{
     border: 2px solid gray;
     border-radius: 5px;
     width: 300px;
+}
+input :required{
+    border: red;
+    color: red;
 }
